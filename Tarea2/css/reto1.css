@@ -1,5 +1,6 @@
 .navbar-custom {
     background-color: #1f1f1f; 
+    margin-bottom: 0;
   }
   .navbar-brand img {
     height: 60px;
@@ -27,9 +28,15 @@
 /*final del nav*/
 
 
+.section .col-md-6 img {
+    margin-top: -20px; 
+  }
+
 .section {
     padding: 80px 0; 
-    background-color: #f8f9fa; 
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+
   }
   .section-title {
     font-size: 50px; 
@@ -42,8 +49,8 @@
     margin-bottom: 30px; 
   }
   .section-text {
-    margin-bottom: 30px; 
-    font-size: 20px;
+    margin-bottom: 20px; 
+    font-size: 16px;
   }
   .section-btn {
     background-color: #C53F3F; 
@@ -54,3 +61,6 @@
     background-color: black; 
     color: #ffffff; 
   }
+
+
+
