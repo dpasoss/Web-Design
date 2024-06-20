@@ -1,0 +1,66 @@
+.header h1 {
+    margin-top: 50px;
+    color: #81b324;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.header h2 {
+    color: gray;
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+/*final de header*/
+
+.icon-large {
+    width: 120px; 
+    height: auto;
+}
+.icon-text {
+    color: #81b324; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    margin-top: 10px; 
+    font-size: 30px; 
+}
+.icon-description {
+    color: #06342c; 
+    font-size: 18px; 
+}
+
+
+.btn-custom {
+    background-color:#81b324 ;
+    color: #fff; 
+    padding: 10px 50px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 25px; 
+    cursor: pointer;
+}
+.btn-custom:hover {
+    background-color: #004d40; /* Color del botón al pasar el cursor */
+}
+
+
+
+
+  /*Inicio footer*/
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer h2{
+    font-size: 15px;
+    font-weight: lighter;
+  }

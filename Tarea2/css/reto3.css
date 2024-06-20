@@ -1,0 +1,90 @@
+body {
+    background-image: url(../img/bluebackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+
+  .header {
+    background-color: rgb(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 45px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header h2 {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+  #desktop {
+    font-size: 60px; 
+    margin-top: 50px; 
+  }
+
+
+
+.interactive-section {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.column {
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.column h3 {
+    color: #fff;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column p {
+    font-size: 13px;
+    color: #fff;
+    text-align: justify;
+}
+
+.btn-custom {
+    margin-top: 1rem;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(0, 0, 0, 0);
+    border-color: #fff;
+    color: #fff;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none; /* Eliminar subrayado */
+}
+
+.btn-custom:hover {
+    background-color: #1be8ff;
+    color: gray;
+}
+
+
+ /*Inicio footer*/
+ .footer {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer h2{
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+

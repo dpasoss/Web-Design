@@ -1,0 +1,59 @@
+body {
+    background-image: url(../img/parquedeleste.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+
+  .header {
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 20px 0;
+  }
+  .header h1, .header h2 {
+    margin-bottom: 10px;
+  }
+
+  .header h2 {
+    font-weight: lighter;
+  }
+
+   
+
+  .iconos-seccion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 20px;
+    
+  }
+  .iconos-seccion .icono {
+    text-align: center;
+    color: #fff; 
+    max-width: 200px; 
+  }
+  .iconos-seccion i {
+    font-size: 120px;
+  }
+  .iconos-seccion p {
+    margin-top: 10px;
+  }
+
+
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer h2{
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+  
