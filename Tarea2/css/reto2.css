@@ -1,21 +1,21 @@
 .header h1 {
     margin-top: 50px;
     color: #81b324;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 .header h2 {
     color: gray;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: lighter;
 
 }
 
 .header {
-    margin-top: 20px;
-    margin-bottom: 90px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 /*final de header*/
 
@@ -27,7 +27,7 @@
     color: #81b324; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
     margin-top: 10px; 
-    font-size: 30px; 
+    font-size: 20px; 
 }
 .icon-description {
     color: #06342c; 
@@ -38,10 +38,10 @@
 .btn-custom {
     background-color:#81b324 ;
     color: #fff; 
-    padding: 10px 50px; 
+    padding: 10px 30px; 
     border: none; 
     border-radius: 5px; 
-    font-size: 25px; 
+    font-size: 18px; 
     cursor: pointer;
 }
 .btn-custom:hover {

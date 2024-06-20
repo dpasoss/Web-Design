@@ -10,7 +10,7 @@ body {
   .header {
     color: white;
     padding: 15px;
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .header h1 {
@@ -26,7 +26,7 @@ body {
 
   #flecha {
     font-size: 60px; 
-    margin-top: 50px; 
+    margin-top: 30px; 
   }
 /*fin del header*/ 
 
@@ -34,7 +34,8 @@ body {
 
 /*inicio botones*/ 
   .buttons-section {
-    padding: 30px;
+    padding: 15px;
+
   }
   
   .custom-btn {

@@ -1,0 +1,56 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .header img {
+    max-width: 130px;
+    height: auto;
+  }
+
+
+
+  .texto-descripcion {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: #e9ecef;
+  }
+
+  .columna {
+    padding: 0;
+    text-align: center;
+  }
+  .columna p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    margin: 20px;
+  }
+  .columna-1 {
+    background-color: #ffcccc; 
+  }
+  .columna-2 {
+    background-color: #d29f9f; 
+  }
+  .columna-3 {
+    background-color: #ddb3e4; 
+  }
+
+  .columna img {
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+
+  /*Inicio footer*/
+  .footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .footer h2{
+    font-size: 15px;
+    font-weight: lighter;
+  }
