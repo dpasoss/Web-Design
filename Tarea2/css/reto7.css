@@ -1,0 +1,70 @@
+body {
+    background-image: url(../img/pastelbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+
+  .header {
+    background-color: pink;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .header h1{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 70px;
+  }
+  
+  .photo-gallery {
+    padding: 50px 0;
+  }
+
+  .photo-gallery h1 {
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .imghvr-fold-left figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+
+  .imghvr-fold-left figcaption h3 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .imghvr-fold-left figcaption p {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
+  .imghvr-fold-left::before, .imghvr-fold-left::after {
+    background-color: pink;
+  }
+
+
+  .footer {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .footer h2{
+    color: rgb(237, 9, 157);
+    font-size: 15px;
+    font-weight: lighter;
+  }
