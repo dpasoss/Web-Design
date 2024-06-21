@@ -35,23 +35,22 @@
 .section {
     padding: 80px 0; 
     background-color: #f8f9fa;
-    margin-bottom: 20px;
-    height: 900px;
+    height: 700px;
 
   }
   .section-title {
-    font-size: 50px; 
+    font-size: 40px; 
     margin-bottom: 20px; 
     font-weight: bold;
   }
   .section-subtitle {
-    font-size: 30px; 
+    font-size: 20px; 
     color: #C53F3F;
     margin-bottom: 30px; 
   }
   .section-text {
     margin-bottom: 20px; 
-    font-size: 16px;
+    font-size: 15px;
   }
   .section-btn {
     background-color: #C53F3F; 
@@ -69,11 +68,9 @@
 
   /*Inicio footer*/
   .footer {
-    text-align: center;
+    background-color: #f8f9fa;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
   }
 
   .footer h2{
