@@ -1,0 +1,78 @@
+.navbar-custom {
+    background-color: rgb(103, 103, 136);
+    margin-bottom: 0;
+  }
+  .navbar-brand img {
+    height: 40px;
+    margin-right: 10px; 
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center; 
+  }
+  .navbar-brand h1 {
+    font-size: 18px; 
+    color: #0CC0DF; 
+    font-weight: bold; 
+    margin-top: 5px; 
+    margin-left: 10px; 
+  }
+  .navbar-nav .nav-link { 
+    font-size: 18px; 
+    margin-right: 15px; 
+    color: white;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #0CC0DF;
+  }
+
+
+  .btn-custom {
+    background-color:  #0CC0DF;
+    border: none; 
+    color: white; 
+    padding: 5px 15px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 5px 2px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+  }
+
+  .btn-custom:hover {
+    background-color:rgb(103, 103, 136);
+    color: white;
+  }
+
+
+
+
+  .column-section {
+    padding: 20px 0;
+  }
+  .column-content {
+    text-align: center;
+    padding: 20px;
+  }
+  .column-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+
+
+
+
+  .footer {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .footer h2{
+    color: rgb(103, 103, 136);
+    font-size: 20px;
+    font-weight: lighter;
+  }
