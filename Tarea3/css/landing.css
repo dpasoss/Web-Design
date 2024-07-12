@@ -107,40 +107,86 @@ body {
     margin: 20px;
   }
   .columna-1 {
-    background-color: #ffcccc; 
+    background-color: #C04DFF; 
   }
   .columna-2 {
-    background-color: #d29f9f; 
+    background-color: #24E0FF; 
   }
   .columna-3 {
-    background-color: #ddb3e4; 
+    background-color: #FF00AA; 
   }
 
 
 
 
-#seccion2 {
+  #seccion2 {
     width: 100%; /* Abarca todo el ancho de la página */
-    padding: 50px 0; /* Separación del banner anterior */
     background-color: #f8f9fa; /* Color de fondo */
+    padding: 0; /* Eliminar cualquier padding */
+    margin: 0; /* Eliminar cualquier margen */
 }
 
 #seccion2 .container-fluid {
-    width: 100%; /* Ancho máximo del contenido */
-    margin: 0 auto; /* Centrar el contenido */
+    padding: 0; /* Eliminar cualquier padding */
+    margin: 0; /* Eliminar cualquier margen */
+}
+
+#seccion2 .row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#seccion2 .col-md-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#seccion2 .columna {
+    padding: 20px; /* Padding interno para la columna */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+#seccion2 .columna .image-box {
+    background-color: #ffffff; /* Fondo blanco para la imagen */
+    padding: 20px; /* Padding interno para la imagen */
+    border-radius: 5px; /* Bordes redondeados para la caja de imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la caja de imagen */
+    margin-bottom: 20px; /* Separación inferior de la caja de imagen */
 }
 
 #seccion2 .columna img {
     width: 100%; /* Ancho completo de la imagen */
     height: auto; /* Mantener proporción */
-    margin-bottom: 20px; /* Separación inferior de la imagen */
+    border-radius: 5px; /* Bordes redondeados para la imagen */
+}
+
+
+#seccion2 .columna h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px; /* Tamaño de fuente del encabezado */
+    color: #fff; /* Color del encabezado */
+    margin: 10px 0; /* Margen superior e inferior */
 }
 
 #seccion2 .columna p {
     font-size: 16px; /* Tamaño de fuente del texto */
     line-height: 1.5; /* Altura de línea */
     color: #333; /* Color del texto */
-    margin: 0 20px; /* Margen lateral */
+    margin: 0; /* Sin margen */
+    padding: 20px; /* Padding interno para el texto */
+    background-color: #ffffff; /* Fondo blanco para el texto */
+    border-radius: 5px; /* Bordes redondeados para el fondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el fondo */
+}
+#seccion2 .columna p {
+    font-size: 16px; /* Tamaño de fuente del texto */
+    line-height: 1.5; /* Altura de línea */
+    color: #333; /* Color del texto */
+    margin: 0; /* Sin margen */
+    padding: 20px; /* Padding interno para el texto */
+    background-color: #ffffff; /* Fondo blanco para el texto */
+    border-radius: 5px; /* Bordes redondeados para el fondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el fondo */
 }
 
 
