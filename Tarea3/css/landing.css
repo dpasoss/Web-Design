@@ -9,7 +9,7 @@ body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 570px;
+    height: 500px;
     display: flex;
     align-items: flex-start; 
     justify-content: space-between; 
@@ -120,15 +120,15 @@ body {
 
 
   #seccion2 {
-    width: 100%; /* Abarca todo el ancho de la página */
-    background-color: #f8f9fa; /* Color de fondo */
-    padding: 0; /* Eliminar cualquier padding */
-    margin: 0; /* Eliminar cualquier margen */
+    width: 100%; 
+    background-color: #f8f9fa; 
+    padding: 0;
+    margin: 0;
 }
 
 #seccion2 .container-fluid {
-    padding: 0; /* Eliminar cualquier padding */
-    margin: 0; /* Eliminar cualquier margen */
+    padding: 0; 
+    margin: 0; 
 }
 
 #seccion2 .row.no-gutters {
@@ -142,62 +142,177 @@ body {
 }
 
 #seccion2 .columna {
-    padding: 20px; /* Padding interno para la columna */
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+    padding: 30px; 
+    box-sizing: border-box;
+    transition: transform 0.3s ease; 
 }
 
 #seccion2 .columna .image-box {
-    background-color: #ffffff; /* Fondo blanco para la imagen */
-    padding: 20px; /* Padding interno para la imagen */
-    border-radius: 5px; /* Bordes redondeados para la caja de imagen */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la caja de imagen */
-    margin-bottom: 20px; /* Separación inferior de la caja de imagen */
+    background-color: #ffffff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
 }
 
 #seccion2 .columna img {
-    width: 100%; /* Ancho completo de la imagen */
-    height: auto; /* Mantener proporción */
-    border-radius: 5px; /* Bordes redondeados para la imagen */
+    width: 100%;
+    height: auto; 
+    border-radius: 5px; 
 }
-
 
 #seccion2 .columna h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 24px; /* Tamaño de fuente del encabezado */
-    color: #fff; /* Color del encabezado */
-    margin: 10px 0; /* Margen superior e inferior */
+    font-size: 27px; 
+    color: #fff; /
+    margin: 10px 0; 
 }
 
 #seccion2 .columna p {
-    font-size: 16px; /* Tamaño de fuente del texto */
-    line-height: 1.5; /* Altura de línea */
-    color: #333; /* Color del texto */
-    margin: 0; /* Sin margen */
-    padding: 20px; /* Padding interno para el texto */
-    background-color: #ffffff; /* Fondo blanco para el texto */
-    border-radius: 5px; /* Bordes redondeados para el fondo */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el fondo */
-}
-#seccion2 .columna p {
-    font-size: 16px; /* Tamaño de fuente del texto */
-    line-height: 1.5; /* Altura de línea */
-    color: #333; /* Color del texto */
-    margin: 0; /* Sin margen */
-    padding: 20px; /* Padding interno para el texto */
-    background-color: #ffffff; /* Fondo blanco para el texto */
-    border-radius: 5px; /* Bordes redondeados para el fondo */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el fondo */
+    font-size: 18px; 
+    line-height: 1.5; 
+    color: #ff; 
+    margin: 0; 
+    padding: 0; 
+    background-color: transparent; 
+    border-radius: 0; 
+    box-shadow: none; 
 }
 
 
+#seccion2 .columna:hover {
+    transform: scale(1.08); 
+    cursor: pointer;
+}
+/*****************************************Fin seccion 2******************************************/
 
 
 
 
 
-#seccion1 { background-color: #f4f4f4; }
-#seccion2 { background-color: #e4e4e4; }
-#seccion3 { background-color: #d4d4d4; }
-#seccion4 { background-color: #c4c4c4; }
+#seccion3 {
+    padding: 40px 0; 
+    background-color: #E2E603 !important;
+}
+
+#seccion3 .titulajes {
+    margin-top: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px; 
+    color: #C04DFF; 
+    text-align: left; 
+    font-weight: bold;
+}
+
+#seccion3 p {
+    font-size: 16px; 
+    line-height: 1.6; 
+    color: #FF00AA; 
+    text-align: justify; 
+    margin-top: 5px; 
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#seccion3 .video-container {
+    width: 100%; 
+    padding-top: 56.25%; 
+    position: relative; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-left: 15px; 
+}
+
+#seccion3 .video-container iframe {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    border: 0; 
+}
+/*******************************Fin Seccion 3**********************/
+
+
+
+.bannerparallax {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: calc(40vh);
+    background-position: center;
+    background-image: url('../img/neon.jpg');
+    background-blend-mode: multiply;  
+}
+
+
+
+ .titulo {
+    font-size: 45px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px; 
+ }
+
+.bannerparallax p {
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ .text-white {
+    color: #fff; 
+ }
+
+.container {
+    max-width: 960px; 
+    margin: 0 auto; 
+}
+    
+.pt-5 {
+     padding-top: 20px; 
+}
+
+
+/***********************************FIN seccion banner paralax***********************************/
+#seccion-audio {
+    padding: 80px 0;
+    background-color: #E2E603;
+}
+
+.imagen-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.imagen-container img {
+    max-width: 60%;
+    height: auto;
+}
+
+p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FF00AA;
+}
+
+audio {
+    width: 100%;
+}
+
+/************************************FIN seccion audio***********************************************/
+
+
+
+
+
+
+
 
 
