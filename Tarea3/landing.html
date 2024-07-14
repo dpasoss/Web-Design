@@ -57,6 +57,7 @@
                     </div>
                     <h1>Iluminación en Las Vegas</h1>
                     <p>Los letreros de neón encuentran nueva vida en el Neon Boneyard, un espacio dinámico donde gemas ocultas esperan contar sus historias. El recorrido revela la historia oculta y subestimada de estos letreros, mostrando un tapiz vibrante de narrativas que encapsulan la esencia de Las Vegas. Únete a nosotros para iluminar estos luminarios olvidados y descubrir las historias grabadas en su resplandor de neón.</p>
+                    <button class="btn btn-primary reservar-btn">Reservar recorrido</button>
                 </div>
                 <div class="col-md-4 columna columna-2 text-center">
                     <div class="image-box">
@@ -64,13 +65,15 @@
                     </div>
                     <h1>Viva las Vegas, Movie Tour</h1>
                     <p>El Viva Las Vegas Movie Tour en The Neon Museum ofrece una experiencia guiada por los escenarios cinematográficos icónicos de Las Vegas. El recorrido, que comienza en el vestíbulo del Motel La Concha, revela la magia de películas memorables, destacando la colección de letreros de neón y marquesinas vintage del museo, y transportando a los visitantes a los escenarios de famosas películas como "Casino" (1995).</p>
+                    <button class="btn btn-primary reservar-btn">Reservar recorrido</button>
                 </div>
                 <div class="col-md-4 columna columna-3 text-center">
                     <div class="image-box">
                         <img src="img/neon3.jpg" alt="Imagen de la columna 3">
                     </div>
                     <h1>Luces Nocturnas</h1>
-                    <p>Descubre la historia de Las Vegas desde sus inicios como una parada de ferrocarril hasta su evolución como "La Capital del Entretenimiento del Mundo." El tour no solo cubre la historia de la ciudad, sino también la curación del espacio del Neon Boneyard en 2012. A través de letreros de neón, explora el inicio del Strip y el Downtown, y recorre el cementerio de letreros para descubrir diferentes épocas de Las Vegas, como la era familiar y la era de las pruebas atómicas.</p>
+                    <p>Descubre la historia de Las Vegas desde sus inicios como una parada de ferrocarril hasta su evolución como "La Capital del Entretenimiento del Mundo." El tour no solo cubre la historia de la ciudad, sino también la curación del espacio del Neon Boneyard en 2012. A través de letreros de neón, explora el inicio del Strip y el Downtown, y recorre el cementerio de letreros para descubrir diferentes épocas de Las Vegas.</p>
+                    <button class="btn btn-primary reservar-btn">Reservar recorrido</button>
                 </div>
             </div>
         </div>
@@ -169,13 +172,108 @@
     
 
 
+
+    <section class="map-section">
+        <h2 class="titulajes text-center pt-5">Mapa de ubicación</h2>
+        <div class="pt-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.571009248013!2d-115.13791232427977!3d36.17699250258186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c30c04199771%3A0xd95c2a661291ef97!2sNeon%20Museum%20at%20the%20Fremont%20Street%20Experience!5e0!3m2!1ses!2scr!4v1720912138059!5m2!1ses!2scr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <form method="post" id="form2" class="formulario-museo mx-auto">
+        <!-- Agrupa el form -->
+        <div class="form-group row">
+            <div class="col-md-6">
+                <div class="pt-3">
+                    <label for="contact-name" class="form-label">Nombre:</label>
+                    <input type="text" id="contact-name" class="form-control" placeholder="Escriba su nombre" required>
+                </div>
+            </div>
+    
+            <div class="col-md-6">
+                <div class="pt-3">
+                    <label for="contact-email" class="form-label">Correo:</label>
+                    <input type="email" id="contact-email" class="form-control" placeholder="Escriba su correo" required> 
+                </div>
+            </div>
+        </div>
+    
+        <div class="form-group row">
+            <div class="col-md-6">
+                <div class="pt-3">
+                    <label for="contact-phone" class="form-label">Teléfono:</label>
+                    <input type="tel" id="contact-phone" class="form-control" placeholder="Escriba su número de teléfono" required>
+                </div>
+            </div>
+    
+            <div class="col-md-6">
+                <div class="pt-3">
+                    <label for="visit-date" class="form-label">Fecha de visita:</label>
+                    <input type="date" id="visit-date" class="form-control" required>
+                </div>
+            </div>
+        </div>
+    
+        <div class="form-group row pt-3">
+            <div class="col-md-6">
+                <label for="number-visitors" class="form-label">Número de visitantes:</label>
+                <input type="number" id="number-visitors" class="form-control" placeholder="Número de visitantes" required>
+            </div>
+    
+            <div class="col-md-6">
+                <label for="contact-method" class="form-label">Método de contacto preferido:</label>
+                <select id="contact-method" class="form-control" required>
+                    <option value="email">Correo Electrónico</option>
+                    <option value="phone">Teléfono</option>
+                </select>
+            </div>
+        </div>
+
+    
+        <div class="form-group row pt-3">
+            <div class="col-12">
+                <label for="contact-message" class="form-label">Comentario:</label>
+                <textarea id="contact-message" class="form-control" rows="7" placeholder="Escriba su comentario" required></textarea>
+            </div>
+        </div>
+    
+        <div class="form-group row pt-3">
+            <div class="col-12">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="subscribe-newsletter">
+                    <label class="form-check-label" for="subscribe-newsletter">Suscribirse al boletín</label>
+                </div>
+            </div>
+        </div>
+    
+        <div class="form-group row pt-3">
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-secondary">Borrar</button>
+            </div>
+        </div> 
+    </form>
+    
+    
+    
+
     
     
     
 <script src="js/landing.js"></script>
-    
+
+
+
+   
 <!-- libreria Lottie JS-->
 <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
