@@ -96,3 +96,60 @@ body {
     margin-bottom: 0.2px;
     margin-top: -1px;
 }
+
+/****************************banner***************************/
+
+
+.icon-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .icon-container i {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .icon-container p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  .icon-container:hover {
+    transform: translateY(-10px);
+    background-color: #e2e603;
+  }
+  
+  .icon-container:hover i,
+  .icon-container:hover p {
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .icon-section {
+      flex-direction: column;
+    }
+  
+    .icon-container {
+      margin-bottom: 20px;
+    }
+  }
