@@ -545,32 +545,21 @@ body {
 #seccion-redes-sociales h2 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2rem;
-  color: #FFF; /* Color del texto del título */
+  color: #FFF; 
   text-align: center;
   margin-bottom: 30px;
 }
 
-.redes-sociales {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px; /* Espacio entre los íconos */
-}
 
 .social-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
   color: #fff; /* Color del texto del enlace */
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1rem;
-  transition: color 0.3s ease, transform 0.3s ease;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .social-link img {
-  width: 40px; /* Tamaño del ícono */
-  height: 40px; /* Tamaño del ícono */
-  margin-right: 10px; /* Espacio entre la imagen y el texto */
+  width: 50px; 
+  height: 50px; 
+  margin-right: 10px; 
   transition: transform 0.3s ease;
 }
 
