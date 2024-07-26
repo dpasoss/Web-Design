@@ -301,9 +301,7 @@ body {
 }
 #seccion3 .titulajes {
   margin-top: 45px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 28px;
-  color: #E2E603;
   text-align: left;
   font-weight: bold;
 }
@@ -314,7 +312,6 @@ body {
   text-align: justify;
   margin-top: 5px;
   font-weight: bold;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 #seccion3 .video-container {
   width: 100%;
@@ -336,19 +333,16 @@ body {
 
 #seccion-redes-sociales {
   background-color: #C04DFF;
-  padding: 40px 0;
 }
 #seccion-redes-sociales h2 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 2rem;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   margin-bottom: 30px;
 }
 
 .social-link {
   color: #fff;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;

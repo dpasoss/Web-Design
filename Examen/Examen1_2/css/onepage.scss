@@ -1,8 +1,11 @@
+// Font families
 $font-family-main: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 $font-family-secondary: Arial, sans-serif;
 
+// Colors
+$background-color: #24E0FF;
+$titulo-color: #FF00AA;
 $color-primary: #E2E603;
-$color-titulo: #E2E603;
 $color-secondary: #C04DFF;
 $color-tertiary: #FF00AA;
 $color-quaternary: #24E0FF;
@@ -10,16 +13,23 @@ $color-texto: #FFF;
 $color-white: #fff;
 $color-black: #000;
 $color-fondo: #C04DFF;
-$color-texto-titulo: #FFF;
 $color-hover: #24E0FF;
-$font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-$box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+$parrafo-color: #C04DFF;
+$btn-background: #FF00AA;
+$btn-hover: #C04DFF;
+$btn-color: $color-white; // Reutilizando $color-white
 
-
-
-$transition-ease: 0.3s ease;
+// Box shadow and border
 $box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 $border-radius: 5px;
+
+// Font colors
+$color-texto-titulo: $color-white; // Reutilizando $color-white
+$subtitulo-color: $color-white; // Reutilizando $color-white
+
+// Transition
+$transition-ease: 0.3s ease;
+
 
 body {
   font-family: $font-family-secondary;
@@ -367,9 +377,7 @@ body {
   
     .titulajes {
       margin-top: 45px;
-      font-family: $font-family;
       font-size: 28px;
-      color: $color-titulo;
       text-align: left;
       font-weight: bold;
     }
@@ -381,7 +389,6 @@ body {
       text-align: justify;
       margin-top: 5px;
       font-weight: bold;
-      font-family: $font-family;
     }
   
     .video-container {
@@ -411,11 +418,9 @@ body {
 
 // Sección de redes sociales
 #seccion-redes-sociales {
-  background-color: $color-fondo; // Color de fondo suave
-  padding: 40px 0;
+  background-color: $color-fondo; 
 
   h2 {
-    font-family: $font-family;
     font-size: 2rem;
     color: $color-texto-titulo;
     text-align: center;
@@ -425,8 +430,7 @@ body {
 
 //Redes sociales
 .social-link {
-  color: #fff; // Color del texto del enlace
-  font-family: $font-family;
+  color: #fff; 
   display: flex;
   align-items: center;
   justify-content: center;

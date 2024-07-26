@@ -538,7 +538,7 @@ body {
 /******************************************************************************/
 
 #seccion-redes-sociales {
-  background-color: #C04DFF; /* Color de fondo suave */
+  background-color: #C04DFF; 
   padding: 40px 0;
 }
 
@@ -552,7 +552,7 @@ body {
 
 
 .social-link {
-  color: #fff; /* Color del texto del enlace */
+  color: #fff; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
@@ -564,12 +564,12 @@ body {
 }
 
 .social-link:hover {
-  color: #24E0FF; /* Color del texto al pasar el cursor */
+  color: #24E0FF; 
   text-decoration: none;
 }
 
 .social-link:hover img {
-  transform: scale(1.1); /* Aumenta el tamaño del ícono al pasar el cursor */
+  transform: scale(1.1); 
 }
 
 .text-center {
@@ -578,7 +578,7 @@ body {
 }
 
 .text-center lottie-player {
-  max-width: 100%; /* Asegura que el reproductor de Lottie se ajuste al contenedor */
+  max-width: 100%; 
   height: auto;
 }
 
