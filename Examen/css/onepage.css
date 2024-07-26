@@ -53,6 +53,36 @@ body {
     color: white;
 }
 
+.navbar-nav .dropdown-menu {
+  background-color: none;
+  border: 1px solid #dddddd; 
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  min-width: 200px; 
+  padding: 0.5rem 0; 
+  z-index: 1000; 
+}
+
+
+.navbar-nav .dropdown-menu .dropdown-item {
+  padding: 0.5rem 1rem; 
+  color: #333; 
+  text-decoration: none; 
+  font-size: 0.875rem; 
+  transition: background-color 0.2s ease; 
+}
+
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #E2E603; 
+  color:#FF00AA; 
+}
+
+
+.navbar-nav .dropdown-menu .dropdown-item:active {
+  background-color: none; 
+  color: #0056b3; 
+}
 
 @media (max-width: 768px) {
     .navbar-collapse {
@@ -208,7 +238,7 @@ body {
   background-color: #C04DFF; 
 }
 .columna-2 {
-  background-color: #24E0FF; 
+  background-color: #2fd7f1; 
 }
 .columna-3 {
   background-color: #FF00AA; 
@@ -272,14 +302,14 @@ body {
 #seccion2 .columna h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 27px; 
-  color: #fff; /
+  color: #fff; 
   margin: 10px 0; 
 }
 
 #seccion2 .columna p {
   font-size: 18px; 
   line-height: 1.5; 
-  color: #ff; 
+  color: #fff; 
   margin: 0; 
   padding: 0; 
   background-color: transparent; 
@@ -298,8 +328,8 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 16px;
   font-weight: bold;
-  color: #FFF; 
-  border: 2px solid #FFF; 
+  color: #E2E603; 
+  border: 2px solid #E2E603; 
   padding: 10px 20px;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease; 
@@ -484,7 +514,7 @@ body {
 
 
 #info-section .btn-icon {
-  width: 24px; /* Ajusta el tamaño de la imagen */
+  width: 30px; /* Ajusta el tamaño de la imagen */
   height: auto; /* Mantiene la relación de aspecto */
 }
 
@@ -561,4 +591,46 @@ body {
 .text-center lottie-player {
   max-width: 100%; /* Asegura que el reproductor de Lottie se ajuste al contenedor */
   height: auto;
+}
+
+/***********************************************************************************************/
+
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative; 
+  width: 100%; 
+  bottom: 0; 
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+/***********************************************************************************************/
+
+.goto-top img {
+  width: 70px; 
+  height: auto; 
+}
+
+.goto-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999; 
+  text-align: right; 
 }
