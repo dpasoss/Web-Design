@@ -158,7 +158,7 @@ body {
   }
 }
 
-/****************************banner***************************/
+/****************************ICONOS***************************/
 
 .iconos {
   background-color: $color-quaternary;
@@ -193,7 +193,7 @@ body {
   }
 }
 
-/****************************************************************************/
+/**********************************BANNER PARALAX******************************************/
 
 .bannerparallax {
   display: flex;
@@ -251,7 +251,7 @@ body {
   padding-top: 20px;
 }
 
-/**************************************************************************************************************/
+/******************************************RECORRIDOS GUIADOS**************************************************************/
 
 .columna {
   padding: 0;
@@ -370,16 +370,86 @@ body {
   }
 }
 
-//seccion 3
+/****************************************EVENTO***********************************************/
+
+.fondo1 {
+    background-color: $color-primary; 
+    padding: 40px 20px;
+  }
+  
+  .titulo2 {
+    font-family: $font-family-main;
+    font-size: 32px;
+    font-weight: bold;
+    color: $color-secondary !important;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $color-white;
+  }
+  
+  .parrafo {
+    font-family: $font-family-secondary;
+    font-size: 18px;
+    line-height: 1.6;
+    color: $color-tertiary;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .btn1 {
+    font-family: $font-family-main;
+    font-size: 16px;
+    font-weight: bold;
+    color: $btn-background; 
+    border: 2px solid $btn-background; 
+    padding: 10px 20px;
+    border-radius: $border-radius;
+    transition: $transition-ease;
+  
+    &:hover {
+      background-color: $btn-hover;
+      color: $btn-color;
+      border: none;
+    }
+  }
+  
+  .img-fluid {
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    max-width: 100%;
+    height: auto;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .titulo2 {
+      font-size: 28px;
+    }
+    .parrafo {
+      font-size: 16px;
+    }
+    .btn1 {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+/*******************************************APRENDIENDO***************************************************/
+
+
 #seccion3 {
     padding: 40px 0;
     background-color: $color-fondo !important;
   
     .titulajes {
       margin-top: 45px;
+      font-family: $font-family-main;
       font-size: 28px;
+      color: $color-primary;
       text-align: left;
       font-weight: bold;
+      border-bottom: 2px solid $color-white;
     }
   
     p {
@@ -389,6 +459,7 @@ body {
       text-align: justify;
       margin-top: 5px;
       font-weight: bold;
+      font-family: $font-family-main;
     }
   
     .video-container {
@@ -413,10 +484,81 @@ body {
 
 
 
+/*******************************************CAROUSEL FOTOS**************************************************/
+.tituloSeccion {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: $color-white;
+    font-family: $font-family-main;
+    margin-bottom: 20px;
+  }
+  
+/*******************************************INFO SECTION***************************************************/
 
+#info-section {
+    background-color: $background-color; 
+    border-radius: $border-radius; 
+    box-shadow: $box-shadow;
+  
+    .tituloSeccion {
+      font-size: 2.5rem;
+      color: $titulo-color; 
+      font-family: $font-family-main;
+      margin-bottom: 30px;
+    }
+  
+    h4 {
+      font-size: 1.75rem;
+      color: $subtitulo-color; 
+      margin-bottom: 15px;
+      font-family: $font-family-main;
+    }
+  
+    p {
+      font-size: 1.3rem;
+      color: $parrafo-color; 
+      line-height: 1.6;
+      font-family: $font-family-main;
+    }
+  
+    .btn-primary {
+      background-color: $btn-background;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: $border-radius;
+      color: $btn-color;
+      transition: background-color $transition-ease;
+  
+      &:hover {
+        background-color: $btn-hover; 
+      }
+    }
+  
+    .btn-icon {
+      width: 30px; 
+      height: auto; 
+    }
+  }
+  
+  /*******************************************MAPA************************************************/
 
+  .map-section {
+    background-color: $color-primary;
+    padding: 1px 0;
+  
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-align: center;
+      color: $color-white;
+      font-family: $font-family-main;
+      margin-bottom: 30px;
+      margin-top: -10px;
+    }
+  }
 
-// Sección de redes sociales
+  /*****************************************REDES SOCIALES**********************************************/
 #seccion-redes-sociales {
   background-color: $color-fondo; 
 
@@ -428,7 +570,6 @@ body {
   }
 }
 
-//Redes sociales
 .social-link {
   color: #fff; 
   display: flex;
@@ -463,175 +604,28 @@ body {
   }
 }
 
-
-
-
-
-/****************************************************************************************/
-
-.fondo1 {
-  background-color: $color-primary;
-  padding: 40px 20px;
-
-  .titulo2 {
-    font-family: $font-family-main;
-    font-size: 32px;
-    font-weight: bold;
-    color: $color-secondary !important;
-    text-align: left;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid $color-white;
-  }
-
-  .video-container {
-    padding: 15px;
-
-    .col-md-6 {
-      text-align: center;
-    }
-
-    .row {
-      padding-left: 20px;
-    }
-
-    .video-description {
-      font-family: $font-family-main;
-      font-size: 18px;
-      line-height: 1.5;
-      color: $color-white;
-      margin: 0;
-    }
-  }
-
-  .btn3 {
-    font-family: $font-family-main;
-    font-size: 16px;
-    font-weight: bold;
-    color: $color-primary;
-    border: 2px solid $color-primary;
-    padding: 10px 20px;
-    border-radius: $border-radius;
-    transition: background-color $transition-ease, color $transition-ease;
-
-    &:hover {
-      background-color: $color-primary;
-      color: $color-white;
-      border: none;
-    }
-  }
-
-  .seccion4 {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    margin-top: 0px;
-
-    &::before {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      background-color: rgba(0, 0, 0, 0.5);
-    }
-
-    .row {
-      justify-content: space-between;
-      align-items: center;
-      height: 100%;
-    }
-  }
-}
-
-/****************************************************************************************/
-
-.seccion4 {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  margin-top: 0;
-
-  &::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  .row {
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-  }
-
-  .col-md-4 {
-    text-align: center;
+/*****************************************FOOTER***********************************************/
+footer {
+    background-color: $color-black;
     color: $color-white;
+    padding: 20px 0;
+    text-align: center;
     position: relative;
-    z-index: 1;
-
-    i {
-      color: $color-white;
-      font-size: 45px;
-      margin-bottom: 20px;
-      transition: color $transition-ease;
-    }
-
-    h4 {
-      font-size: 23px;
-      font-weight: bold;
-      color: $color-white;
-      margin-bottom: 15px;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 1.5;
-    }
-
-    &:hover i {
-      color: $color-tertiary;
-    }
-  }
-}
-
-/****************************************FOOTER************************************************/
-
-.footer {
-  background-color: $color-secondary;
-  padding: 30px 0;
-
-  .footer-links {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-
-    a {
-      font-family: $font-family-main;
-      font-size: 16px;
-      color: $color-white;
-      text-decoration: none;
-      margin: 0 10px;
-      transition: color $transition-ease;
-
-      &:hover {
-        color: $color-primary;
+    width: 100%;
+    bottom: 0;
+    font-family: $font-family-main !important;
+  
+    .footer-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+  
+      p {
+        margin: 0;
+        font-size: 14px;
+        font-family: inherit;
       }
     }
   }
-
-  p {
-    font-family: $font-family-main;
-    font-size: 14px;
-    color: $color-white;
-    text-align: center;
-    margin: 0;
-  }
-}
+  
