@@ -157,11 +157,11 @@ body {
 }
 
 .iconos .col-md-3 {
-  margin-bottom: 30px; /* Espacio entre filas verticalmente */
+  margin-bottom: 30px; 
 }
 
 .iconos .row {
-  justify-content: space-between; /* Asegura que los iconos tengan espacio entre ellos horizontalmente */
+  justify-content: space-between; 
 }
 
   /****************************************************************************/
@@ -222,7 +222,7 @@ body {
      padding-top: 20px; 
 }
 
-/**************************************************************************************************************/
+/**********************************************************************************/
 
 .columna {
   padding: 0;
@@ -468,11 +468,10 @@ body {
   margin-bottom: 20px;
 }
 
-
 /********************************************************************************/
 
 #info-section {
-  background-color: #24E0FF; /* Fondo claro para destacar el contenido */
+  background-color: #24E0FF; 
   border-radius: 8px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -486,20 +485,20 @@ body {
 
 #info-section h4 {
   font-size: 1.75rem;
-  color: #FFF; /* Color del texto de los subtítulos */
+  color: #FFF; 
   margin-bottom: 15px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #info-section p {
   font-size: 1.3rem;
-  color: #C04DFF; /* Color del texto del párrafo */
+  color: #C04DFF; 
   line-height: 1.6;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #info-section .btn-primary {
-  background-color: #FF00AA; /* Color del botón */
+  background-color: #FF00AA; 
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
@@ -509,13 +508,13 @@ body {
 }
 
 #info-section .btn-primary:hover {
-  background-color: #C04DFF; /* Color del botón al pasar el cursor */
+  background-color: #C04DFF; 
 }
 
 
 #info-section .btn-icon {
-  width: 30px; /* Ajusta el tamaño de la imagen */
-  height: auto; /* Mantiene la relación de aspecto */
+  width: 30px; 
+  height: auto; 
 }
 
 /******************************************************************************/
