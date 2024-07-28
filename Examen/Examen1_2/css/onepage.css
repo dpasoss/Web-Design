@@ -70,15 +70,19 @@ body {
 }
 
 @media (max-width: 360px) {
+  .navbar {
+    padding: 10px 20px;
+  }
   .navbar-brand img {
     max-width: 20px;
+    height: auto;
   }
   .navbar-collapse {
     justify-content: center;
   }
   .navbar-toggler {
     margin-right: 114px;
-    margin-top: 30px;
+    margin-top: 100px;
     background-color: #E2E603;
   }
   .navbar-brand img {
