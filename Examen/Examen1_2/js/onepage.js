@@ -20,3 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function topFunction() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+
+
+/*Boton de whatsapp*/
+document.querySelector('.btn-whatsapp').addEventListener('click', function(event) {
+});
